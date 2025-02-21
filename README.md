@@ -23,3 +23,5 @@ A secure authentication system built using the **PERN stack** (PostgreSQL, Expre
 - JWT for authentication
 - bcrypt for password hashing
 - PostgreSQL with pg-promise
+
+I'am looking to add redux to it and store the token in cookies instead of local storage but I know that I'am never gonna open this project again :)
