@@ -1,0 +1,29 @@
+
+POST http://localhost:5000/auth/register
+Content-Type: application/json
+
+{
+    "name": "oooo",
+    "email": "ooo@gmail.com",
+    "password": "test123"
+}
+
+###
+
+POST http://localhost:5000/auth/login
+Content-Type: application/json
+
+{
+    "email": "qqqq@gmail.com",
+    "password": "test123"
+}
+
+###
+
+GET http://localhost:5000/auth/is-verify
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiOTQxNzk3NDAtMjgzNi00MjFiLWE1NGYtOGIzMDYzNDk0Njg0IiwiaWF0IjoxNzM5MDM2OTYzLCJleHAiOjE3MzkwNDA1NjN9.He1IwiyDJ5GRDdwF_zOFJJKpB3R1rATRG5UccTBYuNs
+
+###
+
+GET http://localhost:5000/dashboard
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiOTY5ZTBlZmMtYzhiYS00ODE5LWIwZWItODdjMjI0N2JmOWY0IiwiaWF0IjoxNzQwMTM5OTg3LCJleHAiOjE3NDAxNDM1ODd9.hI52JD3oFjN53bfBSZCFy7LoJcp4cEMhWZS27n3qcX0
